@@ -64,3 +64,9 @@ SELECT * FROM produtos;
 UPDATE produtos SET estoque = estoque + 25 WHERE preco > 150;
 
 SELECT * FROM produtos;
+
+DELETE FROM produtos WHERE estoque <= 10;
+
+DELETE FROM produtos WHERE preco < 20;
+
+DELETE FROM produtos WHERE marca = 'Boca Rosa';
